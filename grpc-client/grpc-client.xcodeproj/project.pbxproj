@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884A162B244C9DAE008163B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884A162A244C9DAE008163B3 /* main.cpp */; };
+		884A1635244C9DBA008163B3 /* helloworld.grpc.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 884A1633244C9DBA008163B3 /* helloworld.grpc.pb.cc */; };
+		884A1636244C9DBA008163B3 /* helloworld.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 884A1634244C9DBA008163B3 /* helloworld.pb.cc */; };
+		884A1639244C9E24008163B3 /* libgrpc++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A1638244C9E24008163B3 /* libgrpc++.a */; };
+		884A163F244C9EDD008163B3 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A163E244C9EDD008163B3 /* libprotobuf.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		884A1625244C9DAE008163B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		884A1627244C9DAE008163B3 /* grpc-client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "grpc-client"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884A162A244C9DAE008163B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		884A1631244C9DBA008163B3 /* helloworld.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloworld.pb.h; sourceTree = "<group>"; };
+		884A1632244C9DBA008163B3 /* helloworld.grpc.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloworld.grpc.pb.h; sourceTree = "<group>"; };
+		884A1633244C9DBA008163B3 /* helloworld.grpc.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helloworld.grpc.pb.cc; sourceTree = "<group>"; };
+		884A1634244C9DBA008163B3 /* helloworld.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helloworld.pb.cc; sourceTree = "<group>"; };
+		884A1638244C9E24008163B3 /* libgrpc++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgrpc++.a"; path = "../../../../../../usr/local/Cellar/grpc/1.28.1/lib/libgrpc++.a"; sourceTree = "<group>"; };
+		884A163A244C9E3F008163B3 /* libprotoc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotoc.a; path = ../../../../../../usr/local/Cellar/protobuf/3.11.4/lib/libprotoc.a; sourceTree = "<group>"; };
+		884A163C244C9EBC008163B3 /* libgrpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgrpc.a; path = ../../../../../../usr/local/Cellar/grpc/1.28.1/lib/libgrpc.a; sourceTree = "<group>"; };
+		884A163E244C9EDD008163B3 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = ../../../../../../usr/local/Cellar/protobuf/3.11.4/lib/libprotobuf.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884A1624244C9DAE008163B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884A163F244C9EDD008163B3 /* libprotobuf.a in Frameworks */,
+				884A1639244C9E24008163B3 /* libgrpc++.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884A161E244C9DAE008163B3 = {
+			isa = PBXGroup;
+			children = (
+				884A1629244C9DAE008163B3 /* grpc-client */,
+				884A1628244C9DAE008163B3 /* Products */,
+				884A1637244C9E24008163B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884A1628244C9DAE008163B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884A1627244C9DAE008163B3 /* grpc-client */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884A1629244C9DAE008163B3 /* grpc-client */ = {
+			isa = PBXGroup;
+			children = (
+				884A1633244C9DBA008163B3 /* helloworld.grpc.pb.cc */,
+				884A1632244C9DBA008163B3 /* helloworld.grpc.pb.h */,
+				884A1634244C9DBA008163B3 /* helloworld.pb.cc */,
+				884A1631244C9DBA008163B3 /* helloworld.pb.h */,
+				884A162A244C9DAE008163B3 /* main.cpp */,
+			);
+			path = "grpc-client";
+			sourceTree = "<group>";
+		};
+		884A1637244C9E24008163B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884A163E244C9EDD008163B3 /* libprotobuf.a */,
+				884A163C244C9EBC008163B3 /* libgrpc.a */,
+				884A163A244C9E3F008163B3 /* libprotoc.a */,
+				884A1638244C9E24008163B3 /* libgrpc++.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884A1626244C9DAE008163B3 /* grpc-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884A162E244C9DAE008163B3 /* Build configuration list for PBXNativeTarget "grpc-client" */;
+			buildPhases = (
+				884A1623244C9DAE008163B3 /* Sources */,
+				884A1624244C9DAE008163B3 /* Frameworks */,
+				884A1625244C9DAE008163B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grpc-client";
+			productName = "grpc-client";
+			productReference = 884A1627244C9DAE008163B3 /* grpc-client */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884A161F244C9DAE008163B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "王晓鹏";
+				TargetAttributes = {
+					884A1626244C9DAE008163B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 884A1622244C9DAE008163B3 /* Build configuration list for PBXProject "grpc-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 884A161E244C9DAE008163B3;
+			productRefGroup = 884A1628244C9DAE008163B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884A1626244C9DAE008163B3 /* grpc-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884A1623244C9DAE008163B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884A1636244C9DBA008163B3 /* helloworld.pb.cc in Sources */,
+				884A162B244C9DAE008163B3 /* main.cpp in Sources */,
+				884A1635244C9DBA008163B3 /* helloworld.grpc.pb.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		884A162C244C9DAE008163B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		884A162D244C9DAE008163B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		884A162F244C9DAE008163B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCMVKMY74F;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/3.11.4/include,
+					/usr/local/Cellar/grpc/1.28.1/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/3.11.4/lib,
+					/usr/local/Cellar/grpc/1.28.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		884A1630244C9DAE008163B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCMVKMY74F;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/3.11.4/include,
+					/usr/local/Cellar/grpc/1.28.1/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/3.11.4/lib,
+					/usr/local/Cellar/grpc/1.28.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884A1622244C9DAE008163B3 /* Build configuration list for PBXProject "grpc-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884A162C244C9DAE008163B3 /* Debug */,
+				884A162D244C9DAE008163B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884A162E244C9DAE008163B3 /* Build configuration list for PBXNativeTarget "grpc-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884A162F244C9DAE008163B3 /* Debug */,
+				884A1630244C9DAE008163B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884A161F244C9DAE008163B3 /* Project object */;
+}
