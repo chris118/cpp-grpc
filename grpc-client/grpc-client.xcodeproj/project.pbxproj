@@ -12,6 +12,8 @@
 		884A1636244C9DBA008163B3 /* helloworld.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 884A1634244C9DBA008163B3 /* helloworld.pb.cc */; };
 		884A1639244C9E24008163B3 /* libgrpc++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A1638244C9E24008163B3 /* libgrpc++.a */; };
 		884A163F244C9EDD008163B3 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A163E244C9EDD008163B3 /* libprotobuf.a */; };
+		884A1656244CACF5008163B3 /* bilateral_stream.grpc.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 884A1652244CACF5008163B3 /* bilateral_stream.grpc.pb.cc */; };
+		884A1657244CACF5008163B3 /* bilateral_stream.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 884A1653244CACF5008163B3 /* bilateral_stream.pb.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		884A163A244C9E3F008163B3 /* libprotoc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotoc.a; path = ../../../../../../usr/local/Cellar/protobuf/3.11.4/lib/libprotoc.a; sourceTree = "<group>"; };
 		884A163C244C9EBC008163B3 /* libgrpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgrpc.a; path = ../../../../../../usr/local/Cellar/grpc/1.28.1/lib/libgrpc.a; sourceTree = "<group>"; };
 		884A163E244C9EDD008163B3 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = ../../../../../../usr/local/Cellar/protobuf/3.11.4/lib/libprotobuf.a; sourceTree = "<group>"; };
+		884A1652244CACF5008163B3 /* bilateral_stream.grpc.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bilateral_stream.grpc.pb.cc; sourceTree = "<group>"; };
+		884A1653244CACF5008163B3 /* bilateral_stream.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bilateral_stream.pb.cc; sourceTree = "<group>"; };
+		884A1654244CACF5008163B3 /* bilateral_stream.grpc.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bilateral_stream.grpc.pb.h; sourceTree = "<group>"; };
+		884A1655244CACF5008163B3 /* bilateral_stream.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bilateral_stream.pb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 				884A1632244C9DBA008163B3 /* helloworld.grpc.pb.h */,
 				884A1634244C9DBA008163B3 /* helloworld.pb.cc */,
 				884A1631244C9DBA008163B3 /* helloworld.pb.h */,
+				884A1652244CACF5008163B3 /* bilateral_stream.grpc.pb.cc */,
+				884A1654244CACF5008163B3 /* bilateral_stream.grpc.pb.h */,
+				884A1653244CACF5008163B3 /* bilateral_stream.pb.cc */,
+				884A1655244CACF5008163B3 /* bilateral_stream.pb.h */,
 				884A162A244C9DAE008163B3 /* main.cpp */,
 			);
 			path = "grpc-client";
@@ -148,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884A1656244CACF5008163B3 /* bilateral_stream.grpc.pb.cc in Sources */,
 				884A1636244C9DBA008163B3 /* helloworld.pb.cc in Sources */,
+				884A1657244CACF5008163B3 /* bilateral_stream.pb.cc in Sources */,
 				884A162B244C9DAE008163B3 /* main.cpp in Sources */,
 				884A1635244C9DBA008163B3 /* helloworld.grpc.pb.cc in Sources */,
 			);
