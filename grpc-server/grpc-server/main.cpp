@@ -39,6 +39,9 @@ public:
     }
     Status SayHello(ServerContext* context,
                      ServerReaderWriter<Message, Message>* stream) override {
+        std::cout << "BidirectionalStreamImpl SayHello " << std::endl;
+
+        
         Message msg;
         while (stream->Read(&msg)) {
              std::cout << "BidirectionalStreamImpl Got message " << msg.content() << std::endl;
